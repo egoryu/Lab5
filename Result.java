@@ -30,7 +30,7 @@ public class Result<T extends Person, U extends Integer> {
 
     public <X extends Person> void findPerson(X x) {
         if (result.containsKey(x))
-            System.out.println("true");
+            System.out.println("true!");
         else
             System.out.println("false");
     }
